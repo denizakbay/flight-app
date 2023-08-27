@@ -36,15 +36,9 @@ This project contains QA tests for the "Flight Search Application," covering bot
 
 3. Header should have Content-Type header with value application/json: Ensures that the "Content-Type" header in the response from the API is set to "application/json".
 
-### Important Notes
-The tests will be executed automatically, and the results will be reported.
-These tests are designed to verify the basic functionality of the application.
-
 ### Frontend Tests
 
 This repository contains automated UI tests for the Flight App application using Playwright, a UI testing tool similar to Playwright/Selenium. The tests are designed to ensure the proper functionality of the application's user interface and to identify potential issues.
-
-### Test Scenarios
 
 #### 1. Input Field Validation
 
@@ -53,4 +47,7 @@ This test scenario validates that the "From" and "To" input fields do not accept
 #### 2. Flight Listing Verification
 
 This scenario checks whether the flight listings accurately correspond to the selected "From" and "To" locations. Additionally, it verifies that the count displayed as "Found X items" matches the actual number of listed flights.
+
+### Important Notes
+After executing the test results will be reported.
 
